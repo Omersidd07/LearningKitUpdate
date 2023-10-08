@@ -1,0 +1,177 @@
+Begin Object Class=/Script/UMGEditor.WidgetBlueprint Name="WBP_Health" ExportPath=/Script/UMGEditor.WidgetBlueprint'"/Game/InfiniteMatrix/UI/WBP_Health.WBP_Health"'
+   Begin Object Class=/Script/UMG.WidgetTree Name="WidgetTree" Archetype=/Script/UMG.WidgetTree'/Script/UMGEditor.Default__WidgetBlueprint:WidgetTree' ExportPath=/Script/UMG.WidgetTree'"/Game/InfiniteMatrix/UI/WBP_Health.WBP_Health:WidgetTree"'
+      Begin Object Class=/Script/UMG.CanvasPanel Name="CanvasPanel_65" ExportPath=/Script/UMG.CanvasPanel'"/Game/InfiniteMatrix/UI/WBP_Health.WBP_Health:WidgetTree.CanvasPanel_65"'
+         Begin Object Class=/Script/UMG.CanvasPanelSlot Name="CanvasPanelSlot_19" ExportPath=/Script/UMG.CanvasPanelSlot'"/Game/InfiniteMatrix/UI/WBP_Health.WBP_Health:WidgetTree.CanvasPanel_65.CanvasPanelSlot_19"'
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.Overlay Name="Overlay_121" ExportPath=/Script/UMG.Overlay'"/Game/InfiniteMatrix/UI/WBP_Health.WBP_Health:WidgetTree.Overlay_121"'
+         Begin Object Class=/Script/UMG.OverlaySlot Name="OverlaySlot_8" ExportPath=/Script/UMG.OverlaySlot'"/Game/InfiniteMatrix/UI/WBP_Health.WBP_Health:WidgetTree.Overlay_121.OverlaySlot_8"'
+         End Object
+         Begin Object Class=/Script/UMG.OverlaySlot Name="OverlaySlot_7" ExportPath=/Script/UMG.OverlaySlot'"/Game/InfiniteMatrix/UI/WBP_Health.WBP_Health:WidgetTree.Overlay_121.OverlaySlot_7"'
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.TextBlock Name="TextBlock_359" ExportPath=/Script/UMG.TextBlock'"/Game/InfiniteMatrix/UI/WBP_Health.WBP_Health:WidgetTree.TextBlock_359"'
+      End Object
+      Begin Object Class=/Script/UMG.TextBlock Name="TXT_HealthNum" ExportPath=/Script/UMG.TextBlock'"/Game/InfiniteMatrix/UI/WBP_Health.WBP_Health:WidgetTree.TXT_HealthNum"'
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.EdGraph Name="EventGraph" ExportPath=/Script/Engine.EdGraph'"/Game/InfiniteMatrix/UI/WBP_Health.WBP_Health:EventGraph"'
+   End Object
+   Begin Object Class=/Script/Engine.EdGraph Name="Get_TXT_HealthNum_Text" ExportPath=/Script/Engine.EdGraph'"/Game/InfiniteMatrix/UI/WBP_Health.WBP_Health:Get_TXT_HealthNum_Text"'
+      Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_1" ExportPath=/Script/BlueprintGraph.K2Node_CallFunction'"/Game/InfiniteMatrix/UI/WBP_Health.WBP_Health:Get_TXT_HealthNum_Text.K2Node_CallFunction_1"'
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_2" ExportPath=/Script/BlueprintGraph.K2Node_CallFunction'"/Game/InfiniteMatrix/UI/WBP_Health.WBP_Health:Get_TXT_HealthNum_Text.K2Node_CallFunction_2"'
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_DynamicCast Name="K2Node_DynamicCast_1" ExportPath=/Script/BlueprintGraph.K2Node_DynamicCast'"/Game/InfiniteMatrix/UI/WBP_Health.WBP_Health:Get_TXT_HealthNum_Text.K2Node_DynamicCast_1"'
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_FunctionEntry Name="K2Node_FunctionEntry_0" ExportPath=/Script/BlueprintGraph.K2Node_FunctionEntry'"/Game/InfiniteMatrix/UI/WBP_Health.WBP_Health:Get_TXT_HealthNum_Text.K2Node_FunctionEntry_0"'
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_FunctionResult Name="K2Node_FunctionResult_0" ExportPath=/Script/BlueprintGraph.K2Node_FunctionResult'"/Game/InfiniteMatrix/UI/WBP_Health.WBP_Health:Get_TXT_HealthNum_Text.K2Node_FunctionResult_0"'
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_VariableGet Name="K2Node_VariableGet_0" ExportPath=/Script/BlueprintGraph.K2Node_VariableGet'"/Game/InfiniteMatrix/UI/WBP_Health.WBP_Health:Get_TXT_HealthNum_Text.K2Node_VariableGet_0"'
+      End Object
+   End Object
+   Begin Object Name="WidgetTree" ExportPath=/Script/UMG.WidgetTree'"/Game/InfiniteMatrix/UI/WBP_Health.WBP_Health:WidgetTree"'
+      Begin Object Name="CanvasPanel_65" ExportPath=/Script/UMG.CanvasPanel'"/Game/InfiniteMatrix/UI/WBP_Health.WBP_Health:WidgetTree.CanvasPanel_65"'
+         Begin Object Name="CanvasPanelSlot_19" ExportPath=/Script/UMG.CanvasPanelSlot'"/Game/InfiniteMatrix/UI/WBP_Health.WBP_Health:WidgetTree.CanvasPanel_65.CanvasPanelSlot_19"'
+            LayoutData=(Offsets=(Left=-629.921875,Right=625.525513,Bottom=198.168198),Anchors=(Minimum=(X=1.000000,Y=0.000000),Maximum=(X=1.000000,Y=0.000000)))
+            Parent=/Script/UMG.CanvasPanel'"WBP_Health:WidgetTree.CanvasPanel_65"'
+            Content=/Script/UMG.Overlay'"WBP_Health:WidgetTree.Overlay_121"'
+         End Object
+         Slots(0)=/Script/UMG.CanvasPanelSlot'"CanvasPanelSlot_19"'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="Overlay_121" ExportPath=/Script/UMG.Overlay'"/Game/InfiniteMatrix/UI/WBP_Health.WBP_Health:WidgetTree.Overlay_121"'
+         Begin Object Name="OverlaySlot_8" ExportPath=/Script/UMG.OverlaySlot'"/Game/InfiniteMatrix/UI/WBP_Health.WBP_Health:WidgetTree.Overlay_121.OverlaySlot_8"'
+            Padding=(Right=-200.000000)
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent=/Script/UMG.Overlay'"WBP_Health:WidgetTree.Overlay_121"'
+            Content=/Script/UMG.TextBlock'"WBP_Health:WidgetTree.TXT_HealthNum"'
+         End Object
+         Begin Object Name="OverlaySlot_7" ExportPath=/Script/UMG.OverlaySlot'"/Game/InfiniteMatrix/UI/WBP_Health.WBP_Health:WidgetTree.Overlay_121.OverlaySlot_7"'
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent=/Script/UMG.Overlay'"WBP_Health:WidgetTree.Overlay_121"'
+            Content=/Script/UMG.TextBlock'"WBP_Health:WidgetTree.TextBlock_359"'
+         End Object
+         Slots(0)=/Script/UMG.OverlaySlot'"OverlaySlot_8"'
+         Slots(1)=/Script/UMG.OverlaySlot'"OverlaySlot_7"'
+         Slot=/Script/UMG.CanvasPanelSlot'"WBP_Health:WidgetTree.CanvasPanel_65.CanvasPanelSlot_19"'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="TextBlock_359" ExportPath=/Script/UMG.TextBlock'"/Game/InfiniteMatrix/UI/WBP_Health.WBP_Health:WidgetTree.TextBlock_359"'
+         Text=NSLOCTEXT("[C09B10A2E6C0CFFFE36EAD34C4A4EE8A]", "93DC28D74834138F47BC189664686F81", "HEALTH:")
+         Font=(Size=40)
+         Slot=/Script/UMG.OverlaySlot'"WBP_Health:WidgetTree.Overlay_121.OverlaySlot_7"'
+      End Object
+      Begin Object Name="TXT_HealthNum" ExportPath=/Script/UMG.TextBlock'"/Game/InfiniteMatrix/UI/WBP_Health.WBP_Health:WidgetTree.TXT_HealthNum"'
+         Text=NSLOCTEXT("[C09B10A2E6C0CFFFE36EAD34C4A4EE8A]", "CDA73FC94A3D3664F28A548AFE7CCF12", "100")
+         Font=(Size=40)
+         Slot=/Script/UMG.OverlaySlot'"WBP_Health:WidgetTree.Overlay_121.OverlaySlot_8"'
+         bIsVariable=True
+         DisplayLabel="TXT_HealthNum"
+      End Object
+      RootWidget=/Script/UMG.CanvasPanel'"CanvasPanel_65"'
+   End Object
+   Begin Object Name="EventGraph" ExportPath=/Script/Engine.EdGraph'"/Game/InfiniteMatrix/UI/WBP_Health.WBP_Health:EventGraph"'
+      Schema=/Script/CoreUObject.Class'"/Script/BlueprintGraph.EdGraphSchema_K2"'
+      bAllowDeletion=False
+      GraphGuid=807BF5D247F2E2C0782AB6BD5E9B6A97
+   End Object
+   Begin Object Name="Get_TXT_HealthNum_Text" ExportPath=/Script/Engine.EdGraph'"/Game/InfiniteMatrix/UI/WBP_Health.WBP_Health:Get_TXT_HealthNum_Text"'
+      Begin Object Name="K2Node_CallFunction_1" ExportPath=/Script/BlueprintGraph.K2Node_CallFunction'"/Game/InfiniteMatrix/UI/WBP_Health.WBP_Health:Get_TXT_HealthNum_Text.K2Node_CallFunction_1"'
+         bIsPureFunc=True
+         FunctionReference=(MemberParent=/Script/CoreUObject.Class'"/Script/Engine.GameplayStatics"',MemberName="GetPlayerPawn")
+         NodePosX=-480
+         NodePosY=96
+         NodeGuid=C3AA4D604457F2915973CBAA7B4D67E9
+         CustomProperties Pin (PinId=06ED914043D1D4A4D17B478DD0A868B7,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject=/Script/CoreUObject.Class'"/Script/Engine.GameplayStatics"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultObject="/Script/Engine.Default__GameplayStatics",PersistentGuid=00000000000000000000000000000000,bHidden=True,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=4F6EB1AF48581055D213C48DEA11E66C,PinName="WorldContextObject",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject=/Script/CoreUObject.Class'"/Script/CoreUObject.Object"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=True,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=True,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=E3127BF3476888AD94E32F97C887F365,PinName="PlayerIndex",PinType.PinCategory="int",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="0",AutogeneratedDefaultValue="0",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=C98D57F449328AC67481CBB7C8BCDF4F,PinName="ReturnValue",Direction="EGPD_Output",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject=/Script/CoreUObject.Class'"/Script/Engine.Pawn"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_DynamicCast_1 D2D751264C2B071810E426B51F02535B,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_CallFunction_2" ExportPath=/Script/BlueprintGraph.K2Node_CallFunction'"/Game/InfiniteMatrix/UI/WBP_Health.WBP_Health:Get_TXT_HealthNum_Text.K2Node_CallFunction_2"'
+         bIsPureFunc=True
+         FunctionReference=(MemberParent=/Script/CoreUObject.Class'"/Script/Engine.KismetTextLibrary"',MemberName="Conv_DoubleToText")
+         NodePosX=80
+         NodePosY=80
+         AdvancedPinDisplay=Hidden
+         NodeGuid=C46AA83943C281C69986FF827295DA35
+         CustomProperties Pin (PinId=CA2C88324333F81441C29EAB1C8BC577,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject=/Script/CoreUObject.Class'"/Script/Engine.KismetTextLibrary"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultObject="/Script/Engine.Default__KismetTextLibrary",PersistentGuid=00000000000000000000000000000000,bHidden=True,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=AB43BA63453A6EB436764398972DF740,PinName="Value",PinType.PinCategory="real",PinType.PinSubCategory="double",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="0.0",AutogeneratedDefaultValue="0.0",LinkedTo=(K2Node_VariableGet_0 D108FBAB4E16BAB9616A56B7943C026B,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=5DF1C23D47C0A2DB25F69ABA78683258,PinName="RoundingMode",PinType.PinCategory="byte",PinType.PinSubCategory="",PinType.PinSubCategoryObject=/Script/CoreUObject.Enum'"/Script/Engine.ERoundingMode"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="HalfToEven",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=True,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=F27ED80A455F997B9C49C0B44F68CD4D,PinName="bAlwaysSign",PinType.PinCategory="bool",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="false",AutogeneratedDefaultValue="false",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=True,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=72261ACC41CA031E162DA1854224C440,PinName="bUseGrouping",PinType.PinCategory="bool",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="true",AutogeneratedDefaultValue="true",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=True,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=CDFF67F3446CF0773678C2A7257539CF,PinName="MinimumIntegralDigits",PinType.PinCategory="int",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="1",AutogeneratedDefaultValue="1",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=True,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=70C647CE49EE8D8CFEFB63840A61DD41,PinName="MaximumIntegralDigits",PinType.PinCategory="int",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="324",AutogeneratedDefaultValue="324",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=True,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=7EF73935451C77711C8407A9216E8ADA,PinName="MinimumFractionalDigits",PinType.PinCategory="int",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="0",AutogeneratedDefaultValue="0",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=True,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=2F461949432C67E756F6FAA4FB221ED8,PinName="MaximumFractionalDigits",PinType.PinCategory="int",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="3",AutogeneratedDefaultValue="3",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=True,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=33CE56AA4605DDD4F7E70190E87201DE,PinName="ReturnValue",Direction="EGPD_Output",PinType.PinCategory="text",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_FunctionResult_0 BEBF1BA645523376AFC004B57F3D64D3,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_DynamicCast_1" ExportPath=/Script/BlueprintGraph.K2Node_DynamicCast'"/Game/InfiniteMatrix/UI/WBP_Health.WBP_Health:Get_TXT_HealthNum_Text.K2Node_DynamicCast_1"'
+         TargetType=/Script/Engine.BlueprintGeneratedClass'"/Game/InfiniteMatrix/Blueprints/BP_Player.BP_Player_C"'
+         NodePosX=-160
+         NodePosY=-32
+         NodeGuid=160B12B94E9270E6767BF08FEE4D4642
+         CustomProperties Pin (PinId=F09BA13F4EDEDDBFF80BB39AC6ECF517,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_FunctionEntry_0 7E2F8EED4551422B056929B07BAFE432,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=0A41DF73407806E933606F8C7B54F0FE,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_FunctionResult_0 87E73B9C4FA016D7E2E96AAF73B18561,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=38338A2C420D2895315192A51F73A7A3,PinName="CastFailed",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=D2D751264C2B071810E426B51F02535B,PinName="Object",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject=/Script/CoreUObject.Class'"/Script/CoreUObject.Object"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_CallFunction_1 C98D57F449328AC67481CBB7C8BCDF4F,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=C451560144B5356A20931F83CCF0D0AE,PinName="AsBP Player",Direction="EGPD_Output",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject=/Script/Engine.BlueprintGeneratedClass'"/Game/InfiniteMatrix/Blueprints/BP_Player.BP_Player_C"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_VariableGet_0 B944CA0A4D98A059BF79F8BDD9C67BBD,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=B1045F0E4B76CF0BE76C4C94098DBC17,PinName="bSuccess",Direction="EGPD_Output",PinType.PinCategory="bool",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=True,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_FunctionEntry_0" ExportPath=/Script/BlueprintGraph.K2Node_FunctionEntry'"/Game/InfiniteMatrix/UI/WBP_Health.WBP_Health:Get_TXT_HealthNum_Text.K2Node_FunctionEntry_0"'
+         ExtraFlags=469893120
+         FunctionReference=(MemberName="Get_TXT_HealthNum_Text")
+         bIsEditable=True
+         NodePosX=-544
+         NodePosY=-32
+         NodeGuid=8AF84D3E45A71E59B5314889BAD68E3F
+         CustomProperties Pin (PinId=7E2F8EED4551422B056929B07BAFE432,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_DynamicCast_1 F09BA13F4EDEDDBFF80BB39AC6ECF517,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_FunctionResult_0" ExportPath=/Script/BlueprintGraph.K2Node_FunctionResult'"/Game/InfiniteMatrix/UI/WBP_Health.WBP_Health:Get_TXT_HealthNum_Text.K2Node_FunctionResult_0"'
+         FunctionReference=(MemberName="Get_TXT_HealthNum_Text")
+         bIsEditable=True
+         NodePosX=384
+         NodePosY=-16
+         NodeGuid=FB674EC24E43DCF4A54EE3BBF2B56756
+         CustomProperties Pin (PinId=87E73B9C4FA016D7E2E96AAF73B18561,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_DynamicCast_1 0A41DF73407806E933606F8C7B54F0FE,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=BEBF1BA645523376AFC004B57F3D64D3,PinName="ReturnValue",PinType.PinCategory="text",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_CallFunction_2 33CE56AA4605DDD4F7E70190E87201DE,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties UserDefinedPin (PinName="ReturnValue",PinType=(PinCategory="text"),DesiredPinDirection=EGPD_Input)
+      End Object
+      Begin Object Name="K2Node_VariableGet_0" ExportPath=/Script/BlueprintGraph.K2Node_VariableGet'"/Game/InfiniteMatrix/UI/WBP_Health.WBP_Health:Get_TXT_HealthNum_Text.K2Node_VariableGet_0"'
+         VariableReference=(MemberParent=/Script/Engine.BlueprintGeneratedClass'"/Game/InfiniteMatrix/Blueprints/BP_Player.BP_Player_C"',MemberName="Health",MemberGuid=197764A6481F2072F1300299BC977270)
+         SelfContextInfo=NotSelfContext
+         NodePosX=-208
+         NodePosY=192
+         ErrorType=1
+         NodeGuid=BB8B0B2E43DD03D561B3DB8343112C1E
+         CustomProperties Pin (PinId=D108FBAB4E16BAB9616A56B7943C026B,PinName="Health",Direction="EGPD_Output",PinType.PinCategory="real",PinType.PinSubCategory="double",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="0.0",AutogeneratedDefaultValue="0.0",LinkedTo=(K2Node_CallFunction_2 AB43BA63453A6EB436764398972DF740,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=B944CA0A4D98A059BF79F8BDD9C67BBD,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject=/Script/Engine.BlueprintGeneratedClass'"/Game/InfiniteMatrix/Blueprints/BP_Player.BP_Player_C"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_DynamicCast_1 C451560144B5356A20931F83CCF0D0AE,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Schema=/Script/CoreUObject.Class'"/Script/BlueprintGraph.EdGraphSchema_K2"'
+      Nodes(0)=/Script/BlueprintGraph.K2Node_FunctionEntry'"K2Node_FunctionEntry_0"'
+      Nodes(1)=/Script/BlueprintGraph.K2Node_FunctionResult'"K2Node_FunctionResult_0"'
+      Nodes(2)=/Script/BlueprintGraph.K2Node_VariableGet'"K2Node_VariableGet_0"'
+      Nodes(3)=/Script/BlueprintGraph.K2Node_DynamicCast'"K2Node_DynamicCast_1"'
+      Nodes(4)=/Script/BlueprintGraph.K2Node_CallFunction'"K2Node_CallFunction_1"'
+      Nodes(5)=/Script/BlueprintGraph.K2Node_CallFunction'"K2Node_CallFunction_2"'
+      GraphGuid=10AA4F0A4BF3EDCA25ECBAAD68DF174C
+   End Object
+   Bindings(0)=(ObjectName="TXT_HealthNum",PropertyName="Text",FunctionName="Get_TXT_HealthNum_Text",SourcePath=(Segments=((Struct=/Script/UMG.WidgetBlueprintGeneratedClass'"WBP_Health_C"',MemberName="Get_TXT_HealthNum_Text",MemberGuid=10AA4F0A4BF3EDCA25ECBAAD68DF174C,IsProperty=False))),MemberGuid=10AA4F0A4BF3EDCA25ECBAAD68DF174C,Kind=Function)
+   PropertyBindings=1
+   WidgetTree="WidgetTree"
+   ParentClass=/Script/CoreUObject.Class'"/Script/UMG.UserWidget"'
+   BlueprintSystemVersion=2
+   UbergraphPages(0)=/Script/Engine.EdGraph'"EventGraph"'
+   FunctionGraphs(0)=/Script/Engine.EdGraph'"Get_TXT_HealthNum_Text"'
+   CategorySorting(0)="WBP Health"
+   CategorySorting(1)=""
+   CategorySorting(2)="Event Graph"
+   LastEditedDocuments(0)=(EditedObjectPath="/Game/InfiniteMatrix/UI/WBP_Health.WBP_Health:Get_TXT_HealthNum_Text",SavedViewOffset=(X=-844.969458,Y=-559.337989),SavedZoomAmount=0.675000)
+   LastEditedDocuments(1)=(EditedObjectPath="/Game/InfiniteMatrix/UI/WBP_Health.WBP_Health:EventGraph",SavedViewOffset=(X=-1203.941086,Y=-171.919711),SavedZoomAmount=0.675000)
+   GeneratedClass=/Script/UMG.WidgetBlueprintGeneratedClass'"WBP_Health_C"'
+   bLegacyNeedToPurgeSkelRefs=False
+   BlueprintGuid=E2C8DF8D4E616DC767D441B59DEDBBFF
+End Object
